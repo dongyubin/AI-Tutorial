@@ -30,15 +30,16 @@ export const en = defineConfig({
 function nav(): DefaultTheme.NavItem[] {
   return [
     {
+      text: 'AI Tutorials',
+      link: '/ai-titorials/janitor-ai-tutorial',
+      activeMatch: '/ai-titorials/'
+    },
+    {
       text: 'Guide',
       link: '/guide/what-is-ai-tutorial',
       activeMatch: '/guide/'
     },
-    // {
-    //   text: 'Category',
-    //   link: '/category/',
-    //   activeMatch: '/category/'
-    // },
+
     // {
     //   text: 'Reference',
     //   link: '/reference/',

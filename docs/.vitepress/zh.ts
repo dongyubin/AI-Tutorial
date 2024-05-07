@@ -56,13 +56,13 @@ export const zh = defineConfig({
 
 function nav(): DefaultTheme.NavItem[] {
   return [
-    // {
-    //   text: '🛠️ 软件',
-    //   link: '/software/search-engines',
-    //   activeMatch: '/software/'
-    // },
     {
-      text: '📚 指南',
+      text: 'AI Tutorials',
+      link: '/zh/ai-titorials/janitor-ai-tutorial',
+      activeMatch: '/software/'
+    },
+    {
+      text: '指南',
       link: '/zh/guide/what-is-ai-tutorial',
       activeMatch: '/guide/'
     },
