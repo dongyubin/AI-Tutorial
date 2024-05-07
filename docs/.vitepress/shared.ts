@@ -4,12 +4,11 @@ import { search as zhSearch } from './zh'
 
 export const shared = defineConfig({
   title: "AI Tutorial",
-  description: "致力于软件的百科全书",
+  description: "Discover The Best AI Tutorial Websites & Tools Tutorial",
   base: '/',
   lastUpdated: true,
   cleanUrls: true,
   metaChunk: true,
-
   sitemap: {
     hostname: 'https://aitutorial.dev',
     transformItems(items) {
@@ -20,7 +19,7 @@ export const shared = defineConfig({
     // ['link', { rel: 'icon', type: 'image/svg+xml', href: '/vitepress-logo-mini.svg' }],
     ['link', { rel: 'icon', type: 'image/png', href: '/aitutorial-logo-mini.png' }],
     ['meta', { name: 'theme-color', content: '#5f67ee' }],
-    ['meta', { name: 'keywords', content: '教程,资源,电影,软件,software,tutorial,tip,wiki,文武软件百科,科技' }],
+    ['meta', { name: 'keywords', content: 'AI Tutorial,Tutorial,AI Tools Tutorial,AI Guide' }],
     ['meta', { name: "description", content: "文武软件百科，致力于软件的百科全书，内容主题涉及软件、电影、小说、音乐、指南、出海等领域。" }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:locale', content: 'zh' }],
@@ -51,16 +50,16 @@ export const shared = defineConfig({
     //   provider: 'local'
     // }
 
-    search: {
-      provider: 'algolia',
-      options: {
-        appId: 'I6ACIL0K09',
-        apiKey: '7873521a47b0fffb076ec2f7b978efc2',
-        indexName: 'wangdu',
-        locales: { ...zhSearch }
-        // locales: { ...zhSearch, ...ptSearch }
-      }
-    },
+    // search: {
+    //   provider: 'algolia',
+    //   options: {
+    //     appId: 'I6ACIL0K09',
+    //     apiKey: '7873521a47b0fffb076ec2f7b978efc2',
+    //     indexName: 'wangdu',
+    //     locales: { ...zhSearch }
+    //     // locales: { ...zhSearch, ...ptSearch }
+    //   }
+    // },
 
     // carbonAds: { code: 'CEBDT27Y', placement: 'vuejsorg' }
   }
