@@ -2,19 +2,19 @@
 layout: home
 
 hero:
-  name: "Wenwu Software Encyclopedia"
-  text: "Committed to the Encyclopedia of Software"
-  tagline: An article for each type of software, regardless of platform
+  name: "AI Tutorial"
+  text: "发现最好的AI教程网站和AI工具教程"
+  # tagline: An article for each type of software, regardless of platform
   image:
-    src: /logo-large.png
+    src: /aitutorial-logo-large.jpeg
     alt: Wenwu Software Encyclopedia
   actions:
     - theme: brand
-      text: 分类
-      link: /zh/category/
+      text: 什么是 AI Tutorial?
+      link: /zh/guide/what-is-ai-tutorial
     - theme: alt
       text: 指南
-      link: /zh/guide/money-indiehackers
+      link: /zh/guide/what-is-ai-tutorial
     - theme: alt
       text: GitHub
       link: https://github.com/dongyubin
@@ -26,7 +26,7 @@ features:
   - icon: 📚
     title: AI工具教程
     details: Janitor AI Tutorial、ChatGPT Tutorial、Midjourney Tutorial、Notion Tutorial、Gemini Tutorial、Zapier Tutorial、Claude Tutorial等
-  - icon: 🚀
+  - icon: 📖
     title: AI工具指南
     details: Janitor AI Guide、ChatGPT Guide、Midjourney Guide、Notion Guide、Gemini Guide、Zapier Guide、Claude Guide等
   - icon: 💡

@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: What is AI Tutorial?
-      link: /category
+      link: /guide/what-is-ai-tutorial
     - theme: alt
       text: Guide
       link: /guide
@@ -22,13 +22,16 @@ hero:
 
 features:
   - icon: 🛠️
-    title: 专注软件
-    details: 收录好用、好玩的软件
+    title: AI Tutorials
+    details: Focused on AI tutorials, including but not limited to ChatGPT (OpenAI), Midjourney, Notion, Gemini, Zapier, etc.
   - icon: 📚
-    title: 指南
-    details: 简单易懂、实用可用的软件指南
-  - icon: 🚀
-    title: 速度快
-    details: 纯静态页面，加载&搜索速度更快
+    title: AI Tools Tutorials
+    details: Janitor AI Tutorial, ChatGPT Tutorial, Midjourney Tutorial, Notion Tutorial, Gemini Tutorial, Zapier Tutorial, Claude Tutorial, etc.
+  - icon: 📖
+    title: AI Tools Guides
+    details: Janitor AI Guide, ChatGPT Guide, Midjourney Guide, Notion Guide, Gemini Guide, Zapier Guide, Claude Guide, etc.
+  - icon: 💡
+    title: AI Tools Tips
+    details: Janitor AI Tips, ChatGPT Tips, Midjourney Tips, Notion Tips, Gemini Tips, Zapier Tips, etc.
 ---
 
