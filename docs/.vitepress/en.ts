@@ -12,7 +12,7 @@ export const en = defineConfig({
     nav: nav(),
 
     sidebar: {
-      '/Category/': { base: '/Category/', items: sidebarGuide() },
+      // '/Category/': { base: '/Category/', items: sidebarGuide() },
       // '/reference/': { base: '/reference/', items: sidebarReference() }
     },
 
@@ -23,7 +23,7 @@ export const en = defineConfig({
 
     footer: {
       message: 'Released under the MIT License.',
-      copyright: `Copyright © 2019-${new Date().getFullYear()}`
+      copyright: `Copyright © 2024-${new Date().getFullYear() + 1}`
     }
   }
 })
@@ -32,19 +32,19 @@ function nav(): DefaultTheme.NavItem[] {
   return [
     {
       text: 'Guide',
-      link: '/Guide/site-config',
-      activeMatch: '/reference/'
+      link: '/guide/what-is-ai-tutorial',
+      activeMatch: '/guide/'
     },
-    {
-      text: 'Category',
-      link: '/Category/money-indiehackers',
-      activeMatch: '/Category/'
-    },
-    {
-      text: 'Reference',
-      link: '/reference/site-config',
-      activeMatch: '/reference/'
-    },
+    // {
+    //   text: 'Category',
+    //   link: '/category/',
+    //   activeMatch: '/category/'
+    // },
+    // {
+    //   text: 'Reference',
+    //   link: '/reference/',
+    //   activeMatch: '/reference/'
+    // },
     // {
     //   // text: pkg.version,
     //   items: [

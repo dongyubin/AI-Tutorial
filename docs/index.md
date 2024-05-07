@@ -15,7 +15,7 @@ hero:
       link: /guide/what-is-ai-tutorial
     - theme: alt
       text: Guide
-      link: /guide
+      link: /guide/what-is-ai-tutorial
     - theme: alt
       text: GitHub
       link: https://github.com/dongyubin

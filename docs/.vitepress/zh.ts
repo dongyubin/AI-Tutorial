@@ -12,8 +12,8 @@ export const zh = defineConfig({
     nav: nav(),
 
     sidebar: {
-      '/guide/': { base: '/guide/', items: sidebarGuide() },
-      '/software/': { base: '/software/', items: sidebarReference() }
+      '/指南/': { base: '/zh/guide/what-is-ai-tutorial', items: sidebarGuide() },
+      // '/software/': { base: '/software/', items: sidebarReference() }
     },
 
     editLink: {
@@ -56,14 +56,14 @@ export const zh = defineConfig({
 
 function nav(): DefaultTheme.NavItem[] {
   return [
-    {
-      text: '🛠️ 软件',
-      link: '/software/search-engines',
-      activeMatch: '/software/'
-    },
+    // {
+    //   text: '🛠️ 软件',
+    //   link: '/software/search-engines',
+    //   activeMatch: '/software/'
+    // },
     {
       text: '📚 指南',
-      link: '/guide/free-welfare',
+      link: '/zh/guide/what-is-ai-tutorial',
       activeMatch: '/guide/'
     },
     {
