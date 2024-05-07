@@ -1,0 +1,17 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/rss",
+      "destination": "/rss.xml"
+    },
+    {
+      "source": "/feed",
+      "destination": "/rss.xml"
+    },
+    {
+      "source": "/feed/",
+      "destination": "/rss.xml"
+    }
+  ]
+}

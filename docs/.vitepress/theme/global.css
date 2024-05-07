@@ -1,0 +1,27 @@
+/* docs/.vitepress/theme/global.css */
+/* 图片点击放大优先级调整 */
+/* .medium-zoom-image {
+  z-index: 9999 !important;
+} */
+
+.medium-zoom-overlay {
+  z-index: 30;
+}
+
+.medium-zoom-image--opened {
+  z-index: 31;
+}
+
+p:has(img, span) {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 为了确保支持不同的浏览器，请为 span 设置 display 属性 */
+p:has(img) span {
+  display: inline-block;
+  /* 或者您可以选择 flex 或 inline-flex，取决于您的需求 */
+  color: #8e8787;
+}

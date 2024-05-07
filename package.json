@@ -1,0 +1,29 @@
+{
+  "name": "wwrjbk",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "@types/markdown-it": "^12.2.3",
+    "feed": "^4.2.2",
+    "markdown-it-mathjax3": "^4.3.2",
+    "vitepress": "1.1.4",
+    "vue": "^3.4.21"
+  },
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search",
+        "search-insights"
+      ]
+    }
+  },
+  "dependencies": {
+    "medium-zoom": "^1.1.0",
+    "vitepress-plugin-rss": "^0.2.2"
+  }
+}
