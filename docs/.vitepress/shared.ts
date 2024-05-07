@@ -22,7 +22,7 @@ export const shared = defineConfig({
     ['meta', { name: 'keywords', content: 'AI Tutorial,Tutorial,AI Tools Tutorial,AI Guide' }],
     ['meta', { name: "description", content: "Discover The Best AI Tutorial Websites & Tools Tutorial" }],
     ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:locale', content: 'zh' }],
+    ['meta', { property: 'og:locale', content: 'en' }],
     ['meta', { property: 'og:title', content: 'AI Tutorial | Discover The Best AI Tutorial Websites & Tools Tutorial' }],
     ['meta', { property: 'og:site_name', content: 'AI Tutorial' }],
     ['meta', { property: 'og:image', content: 'https://aitutorial.dev/og.png' }],
