@@ -1,41 +1,49 @@
 # AI教程：掌握IDM-VTON虚拟试衣技术 - 功能、使用、局限及常见问题解答
 
 ## IDM-VTON是什么？
-IDM-VTON（Improving Diffusion Models for Authentic Virtual Try-on in the Wild）是一种先进的虚拟试衣技术，由韩国科学技术院和OMNIOUS.AI的研究人员提出。该技术通过改进扩散模型来生成逼真的虚拟试穿效果，允许用户上传一张单人照片和一张衣服照片，实现人穿衣服效果图像的生成。
+IDM-VTON，全称为Improving Diffusion Models，是一种新型的扩散模型，广泛应用于基于图像的虚拟试穿任务。它采用了先进的视觉编码器和UNet网络，结合高级语义与低级特征，生成具有高度真实感和极致细节的虚拟试穿图像。与此同时，IDM-VTON提供了简易的配置选项，因此不论你的需求是调整图像的宽高、推理步骤数、输出目录，抑或是批次大小等参数，IDM-VTON都能轻易地满足你。
 
-## 官网/源码地址/体验地址
+由韩国科学技术院和OMNIOUS.AI的研究人员提出。该技术通过改进扩散模型来生成逼真的虚拟试穿效果，允许用户上传一张单人照片和一张衣服照片，实现人穿衣服效果图像的生成。
+
+## IDM-VTON官网/源码地址/体验地址
 - **官网**：[点击访问](https://idm-vton.github.io/)
 - **GitHub源码**：[点击访问](https://github.com/yisol/IDM-VTON)
 - **体验地址**：[点击访问](https://huggingface.co/spaces/yisol/IDM-VTON)
 
-## 特点
+## IDM-VTON特点
+
 1. **高级语义与低级特征融合**：使用两个不同的模块编码服装图像的语义，包括高级语义网络和低级语义网络。
 2. **身份和变形匹配**：通过改进的扩散模型，提高服装保真度并生成真实的虚拟试穿图像。
 3. **野外环境适应性**：特别设计用于野外环境，即现实世界场景中的虚拟试穿。
 
-## 如何使用
+## IDM-VTON如何使用
+
 1. **环境设置**：
+   
    ```bash
    git clone https://github.com/yisol/IDM-VTON.git
    cd IDM-VTON
    conda env create -f environment.yaml
    conda activate idm
    ```
-
+   
 2. **数据集准备**：下载并准备所需的数据集，如VITON-HD或DressCode，并按照指定结构组织数据。
 
 3. **推理执行**：使用提供的推理脚本对数据集进行推理，生成试穿效果的图像。
 
 4. **本地演示**：通过Gradio启动本地演示，实时测试试穿效果。
 
-## 局限性
+## IDM-VTON局限性
+
 - 对于未包含在训练数据集中的衣物类型，模型的试穿效果可能不佳。
 - 可能在处理复杂背景或不同光照条件下的图像时存在挑战。
 
-## 最后评价
+## IDM-VTON最后评价
+
 IDM-VTON技术通过提供逼真的虚拟试衣体验，为电子商务、广告、娱乐等领域带来革新，提升了用户体验。
 
-## 常见问题
+## IDM-VTON常见问题
+
 **Q:** 安装依赖或配置环境时遇到问题怎么办？
 **A:** 请参考官方GitHub仓库中的`environment.yaml`文件和安装指南。
 

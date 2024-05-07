@@ -11,8 +11,8 @@ export const en = defineConfig({
     nav: nav(),
 
     sidebar: {
-      // '/Category/': { base: '/Category/', items: sidebarGuide() },
-      // '/reference/': { base: '/reference/', items: sidebarReference() }
+      '/guide/': { base: '/guide/', items: sidebarGuide() },
+      '/ai-tutorials/': { base: '/ai-tutorials/', items: sidebarReference() }
     },
 
     editLink: {
@@ -31,8 +31,8 @@ function nav(): DefaultTheme.NavItem[] {
   return [
     {
       text: 'AI Tutorials',
-      link: '/ai-titorials/janitor-ai-tutorial',
-      activeMatch: '/ai-titorials/'
+      link: '/ai-tutorials/janitor-ai',
+      activeMatch: '/ai-tutorials/'
     },
     {
       text: 'Guide',
@@ -67,7 +67,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       text: 'Introduction',
       collapsed: false,
       items: [
-        { text: 'Overseas Navigation', link: 'money-indiehackers' },
+        { text: 'What is AI Tutorial?', link: 'what-is-ai-tutorial' },
         // { text: 'Getting Started', link: 'getting-started' },
         // { text: 'Routing', link: 'routing' },
         // { text: 'Deploy', link: 'deploy' }
@@ -110,35 +110,92 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
   ]
 }
 
-// function sidebarReference(): DefaultTheme.SidebarItem[] {
-//   return [
-//     {
-//       text: 'Reference',
-//       items: [
-//         { text: 'Site Config', link: 'site-config' },
-//         { text: 'Frontmatter Config', link: 'frontmatter-config' },
-//         { text: 'Runtime API', link: 'runtime-api' },
-//         { text: 'CLI', link: 'cli' },
-//         {
-//           text: 'Default Theme',
-//           base: '/reference/default-theme-',
-//           items: [
-//             { text: 'Overview', link: 'config' },
-//             { text: 'Nav', link: 'nav' },
-//             { text: 'Sidebar', link: 'sidebar' },
-//             { text: 'Home Page', link: 'home-page' },
-//             { text: 'Footer', link: 'footer' },
-//             { text: 'Layout', link: 'layout' },
-//             { text: 'Badge', link: 'badge' },
-//             { text: 'Team Page', link: 'team-page' },
-//             { text: 'Prev / Next Links', link: 'prev-next-links' },
-//             { text: 'Edit Link', link: 'edit-link' },
-//             { text: 'Last Updated Timestamp', link: 'last-updated' },
-//             { text: 'Search', link: 'search' },
-//             { text: 'Carbon Ads', link: 'carbon-ads' }
-//           ]
-//         }
-//       ]
-//     }
-//   ]
-// }
+function sidebarReference(): DefaultTheme.SidebarItem[] {
+  return [
+
+    {
+      text: 'Text&Writing',
+      collapsed: true,
+      items: []
+    },
+    {
+      text: 'Image',
+      collapsed: true,
+      items: []
+    },
+    {
+      text: 'Video',
+      collapsed: true,
+      items: []
+    },
+    {
+      text: 'Code&IT',
+      collapsed: true,
+      items: []
+    },
+    {
+      text: 'Voice',
+      collapsed: true,
+      items: []
+    },
+    {
+      text: 'Business',
+      collapsed: true,
+      items: []
+    },
+    {
+      text: 'Marketing',
+      collapsed: true,
+      items: []
+    },
+    {
+      text: 'AI Detector',
+      collapsed: true,
+      items: []
+    },
+    {
+      text: 'Chatbot',
+      collapsed: true,
+      items: [
+        { text: 'Janitor AI', link: 'janitor-ai' },
+        { text: 'Saner.AI', link: 'saner-ai-beta-version' },
+      ]
+    },
+    {
+      text: 'Design&Art',
+      collapsed: true,
+      items: []
+    },
+    {
+      text: 'Life Assistant',
+      collapsed: true,
+      items: []
+    },
+    {
+      text: '3D',
+      collapsed: true,
+      items: []
+    },
+    {
+      text: 'Education',
+      collapsed: true,
+      items: []
+    },
+    {
+      text: 'Prompt',
+      collapsed: true,
+      items: []
+    },
+    {
+      text: 'Productivity',
+      collapsed: true,
+      items: []
+    },
+    {
+      text: 'Other',
+      collapsed: true,
+      items: []
+    }
+
+  ]
+}
