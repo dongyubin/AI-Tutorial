@@ -28,7 +28,7 @@ export const shared = defineConfig({
     ['meta', { property: 'og:image', content: 'https://aitutorial.dev/og.png' }],
     ['meta', { name: "og:description", content: "文武软件百科，致力于软件的百科全书，内容主题涉及软件、电影、小说、音乐、指南、出海等领域。" }],
     ['meta', { property: 'og:url', content: 'https://aitutorial.dev' }],
-    // ['meta', { name: 'google-site-verification', content: 'KBPn5wrmRqhyywKks4B7wK6kIXpOyxcFpm1FCx4XdR8' }],
+    ['meta', { name: 'google-site-verification', content: '2_r2LM-rqlahQyh2PQzDtHZyCo0uWGmvebxqzml6HYU' }],
     // ['script', { src: 'https://font.wangdu.site/script.js', 'data-website-id': 'f1d6d35a-b736-4702-95dd-03bf623debf3' }],
     ['meta', { property: 'twitter:card', content: 'summary' }],
     ['meta', { property: 'twitter:creator', content: '@wwkjs666' }],
